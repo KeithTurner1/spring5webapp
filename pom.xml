@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<<<<<<< HEAD
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+=======
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.2.2.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+>>>>>>> 1dec5f2... adding new Spring Boot 2.2 base project
 
 	<groupId>guru.springframework</groupId>
 	<artifactId>spring5webapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+<<<<<<< HEAD
 	<packaging>jar</packaging>
 
 	<name>spring5webapp</name>
@@ -22,23 +34,38 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+=======
+
+	<name>spring5webapp</name>
+
+	<description>Example Spring 5 Web Application</description>
+
+	<properties>
+		<java.version>11</java.version>
+>>>>>>> 1dec5f2... adding new Spring Boot 2.2 base project
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+=======
+>>>>>>> 1dec5f2... adding new Spring Boot 2.2 base project
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+=======
+>>>>>>> 1dec5f2... adding new Spring Boot 2.2 base project
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
@@ -51,6 +78,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+<<<<<<< HEAD
+=======
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+>>>>>>> 1dec5f2... adding new Spring Boot 2.2 base project
 		</dependency>
 	</dependencies>
 
@@ -63,6 +99,7 @@
 		</plugins>
 	</build>
 
+<<<<<<< HEAD
 	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
@@ -102,4 +139,6 @@
 	</pluginRepositories>
 
 
+=======
+>>>>>>> 1dec5f2... adding new Spring Boot 2.2 base project
 </project>
